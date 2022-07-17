@@ -265,7 +265,7 @@
           1,
           null,
           1,
-          0,
+          1,
           null,
           null
         ]
@@ -274,6 +274,45 @@
         "lines": [
           1,
           1,
+          null
+        ]
+      },
+      "/Users/jonathanpope/turing/2mod/ics/dark-dream-4209/spec/models/recipe_ingredients_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          1,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/jonathanpope/turing/2mod/ics/dark-dream-4209/app/models/recipe_ingredient.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/jonathanpope/turing/2mod/ics/dark-dream-4209/spec/models/recipe_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          2,
+          null,
+          null,
+          1,
+          2,
+          2,
+          null,
           null
         ]
       },
@@ -288,31 +327,8 @@
           null,
           null
         ]
-      },
-      "/Users/jonathanpope/turing/2mod/ics/dark-dream-4209/app/models/recipe_ingredient.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          null
-        ]
-      },
-      "/Users/jonathanpope/turing/2mod/ics/dark-dream-4209/app/controllers/ingredients_controller.rb": {
-        "lines": [
-          1,
-          1,
-          2,
-          null,
-          null
-        ]
-      },
-      "/Users/jonathanpope/turing/2mod/ics/dark-dream-4209/app/controllers/application_controller.rb": {
-        "lines": [
-          1,
-          null
-        ]
       }
     },
-    "timestamp": 1658102093
+    "timestamp": 1658102354
   }
 }

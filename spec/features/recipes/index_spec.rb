@@ -37,5 +37,19 @@ RSpec.describe Recipe, type: :feature do
             expect(page).to have_content(recipe2.genre)
             expect(page).to have_content(recipe3.genre)
         end
+
+        it 'recipes show up in alphabetical order' do 
+            recipe1 = Recipe.create!(name: "Spaghetti", complexity: 2, genre: "Italian")
+            recipe2 = Recipe.create!(name: "Tacos", complexity: 1, genre: "Mexican")
+            recipe3 = Recipe.create!(name: "Cheeseburger", complexity: 3, genre: "American")
+
+            visit '/recipes'
+
+            within ("#recipes") do 
+                expect(page.all('.recipe')[0]).to have_content(recipe3.name)
+                expect(page.all('.recipe')[1]).to have_content(recipe1.name)
+                expect(page.all('.recipe')[2]).to have_content(recipe2.name)
+            end 
+        end
     end 
 end 

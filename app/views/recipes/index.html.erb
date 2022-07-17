@@ -1,6 +1,10 @@
+<div id="recipes">
 <h2>Recipes</h2>
 <% @recipes.each do |recipe| %>
+    <div class="recipe">
     <p>Name: <%= recipe.name %></p>
     <p>Complexity: <%= recipe.complexity %></p>
     <p>Genre: <%= recipe.genre %></p>
+    </div>
 <% end %>
+</div>
