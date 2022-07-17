@@ -1,4 +1,8 @@
+<div id="ingredients">
 <h2>Ingredients</h2>
 <% @ingredients.each do |ingred| %>
+    <div class="ingred">
    <p><%= ingred.name %>: <%= ingred.recipes.count %></p>
+   </div>
 <% end %>
+</div>
