@@ -1,0 +1,4 @@
+<h2>Ingredients</h2>
+<% @ingredients.each do |ingred| %>
+   <p><%= ingred.name %>: <%= ingred.recipes.count %></p>
+<% end %>
