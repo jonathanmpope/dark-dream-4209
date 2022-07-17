@@ -21,7 +21,6 @@ RSpec.describe Ingredient, type: :feature do
             cheese = recipe3.ingredients.create!(name: "cheese", cost:1)
 
             visit '/ingredients'
-            save_and_open_page
 
             expect(page).to have_content("#{noodles.name}: 1")
             expect(page).to have_content("#{mushrooms.name}: 2")
